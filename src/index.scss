@@ -1,0 +1,149 @@
+:root {
+    --page-bg-color: #F9F7F4;
+    --text-color: #222427;
+    --button-and-span-color: #4380FF;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+    height: 635px;
+    background-color: var(--page-bg-color);
+    
+    button {
+        font-family: inherit;
+    }
+}
+
+// Страница 1
+.wrapper {
+   margin: 0 20px;
+}
+
+.line {
+    margin: 10px 0;
+    height: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: #15C963;
+}
+
+header {
+    height: 40px;
+    
+    span {
+        float: right;
+        font-size: 14px;
+        color: #70748E;
+        line-height: 21px;
+    }
+}
+
+main {
+    
+    h1 {
+        margin: 30px 0 15px 0;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: var(--text-color);
+    }
+
+    p {
+        margin: 0 0 20px 0;
+        font-size: 15px;
+        line-height: 22px;
+        color: var(--text-color);
+    }
+}
+
+.content {
+    margin-bottom: 60px;
+    p {
+        margin: 0;
+        height: 40px;
+        align-items: center;
+        border-bottom: 1px solid #E4E9F5;
+    }
+
+    input {
+        cursor: pointer;
+        width: 23px;
+        height: 23px;
+        color: var(--button-and-span-color);
+        border: 1px solid #D0DFFF;
+        border-radius: 8px;
+    }
+
+    img {
+        margin: 0 10px 0 20px;
+    }
+}
+
+.nextButton {
+    min-width: 330px;
+    max-width: 330px;
+    height: 50px;
+    background: var(--button-and-span-color);
+    border-radius: 38px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(109, 98, 229, 0.21);
+}
+
+// Страница 2
+.previous-step {
+    align-items: center;
+    text-decoration: none;
+
+    p {
+        margin: 0;
+        font-size: 14px;
+        color: rgba(46, 50, 63, 0.7);
+    }
+}
+
+.card-item {
+    width: 330px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 13px;
+    border: 1px solid rgba(27, 24, 48, 0.03);
+    font-size: 15px;
+    color: var(--text-color);
+    text-align: left;
+    padding: 0 0 0 20px;
+    margin-bottom: 10px;
+
+    &:active {
+        background: #F1F6FF;
+        box-shadow: 0px 0px 8px rgba(116, 89, 172, 0.08);
+        border: 1.5px solid var(--button-and-span-color);
+    }
+}
+
+// Страница 3
+.text {
+    margin-left: 20px;
+}
+
+// Страница 4
+    .time-span {
+        color: var(--button-and-span-color);
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .time-p {
+        color: var(--text-color);
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+// Страница 5
